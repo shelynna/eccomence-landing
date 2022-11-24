@@ -1,0 +1,159 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    box-sizing: border-box;
+    background: #ebe3cd;
+    font-family: montserrat, 'Arial Narrow', Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p
+{
+    font-size: 1em;
+    color: rgb(20, 20, 30);
+}
+
+li,
+a
+{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.header
+{
+    background-color: #03010b;
+    margin: 4em 5em;
+    border-radius: 100px;
+}
+
+.header--nav .logo
+{
+    font-size: 2em;
+    font-family: cursive, sans;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.header--nav
+{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding: 0.5em 3em;
+}
+
+.header--nav .nav-flex
+{
+    display: flex;
+}
+
+.nav-flex
+{
+    gap: 3em;
+}
+
+.nav-flex a
+{
+    color: whitesmoke;
+}
+
+.nav-flex a:hover
+{
+    color: cyan;
+}
+
+.nav--btn
+{
+    color: cyan;
+}
+
+.nav--btn:hover
+{
+    color: whitesmoke;
+}
+
+.container--wrapper
+{
+    width: 100vw;
+    margin: 0 auto;
+}
+
+/* .hero--hero{
+    
+} */
+
+.hero
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5em;
+
+}
+
+.hero--text
+{
+    margin-right: 9em;
+}
+
+.hero--text h1
+{
+    font-size: 4em;
+}
+
+.hero--text h3
+{
+    font-size: 1.5em;
+    padding: 1em 0;
+
+}
+
+.hero--btns
+{
+    margin: 2em 0;
+    font-weight: 700;
+}
+
+.hero--btn-links
+{
+    color: whitesmoke;
+    border: none;
+    border-radius: 50px;
+    background-color: #ff4500;
+    padding: 1em 3em;
+    margin: 1em 0;
+}
+
+.hero--btn-links:hover
+{
+    background-color: #df581e;
+
+}
+
+.hero--links
+{
+    color: #03010b;
+    margin: 0 1em;
+}
+
+.hero--links:hover
+{
+    color: #ff4500;
+    transition: all;
+}
+
+.hero--img
+{
+    width: 40%;
+}
